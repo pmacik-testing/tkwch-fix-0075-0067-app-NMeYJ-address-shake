@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-ipdr
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/pmacik-testing/tkwch-fix-0075-0067-tenant/tkwch-fix-0075-0067-app/devfile-sample-ipdr@sha256:646438f86a8eb2d543465627b9aa85ad0a848aa09402f12223e041448ccfd758
+        name: my-nodejs
+        resources: {}
+status: {}
