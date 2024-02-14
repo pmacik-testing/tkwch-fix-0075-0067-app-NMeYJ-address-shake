@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-ipdr
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkwch-fix-0075-0067-tenant/tkwch-fix-0075-0067-app/devfile-sample-ipdr@sha256:646438f86a8eb2d543465627b9aa85ad0a848aa09402f12223e041448ccfd758
         name: my-nodejs
         ports:
         - containerPort: 3001
